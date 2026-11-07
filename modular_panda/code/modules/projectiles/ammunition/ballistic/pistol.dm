@@ -1,0 +1,102 @@
+// 10mm (Ringneck)
+
+/obj/item/shiptest_ammo_casing/c10mm
+	name = "10mm bullet casing"
+	desc = "A 10mm bullet casing."
+	icon_state = "pistol-steel"
+	caliber = "10mm"
+	projectile_type = /obj/shiptest_projectile/bullet/c10mm
+
+/obj/item/shiptest_ammo_casing/c10mm/surplus
+	name = "10mm surplus bullet casing"
+	desc = "A 10mm surplus bullet casing."
+	bullet_skin = "surplus"
+	projectile_type = /obj/shiptest_projectile/bullet/c10mm/surplus
+	wear_modifier = 2
+
+/obj/item/shiptest_ammo_casing/c10mm/ap
+	name = "10mm armor-piercing bullet casing"
+	desc = "A 10mm armor-piercing bullet casing."
+	bullet_skin = "ap"
+	projectile_type = /obj/shiptest_projectile/bullet/c10mm/ap
+
+/obj/item/shiptest_ammo_casing/c10mm/hp
+	name = "10mm hollow-point bullet casing"
+	desc = "A 10mm hollow-point bullet casing."
+	projectile_type = /obj/shiptest_projectile/bullet/c10mm/hp
+	bullet_skin = "hollow"
+
+/obj/item/shiptest_ammo_casing/c10mm/rubber
+	name = "10mm rubber bullet casing"
+	desc = "A 10mm rubber bullet casing."
+	bullet_skin = "rubber"
+	projectile_type = /obj/shiptest_projectile/bullet/c10mm/rubber
+
+// 9mm (Commander + SABR)
+
+/obj/item/shiptest_ammo_casing/c9mm
+	name = "9mm bullet casing"
+	desc = "A 9mm bullet casing."
+	icon_state = "pistol-brass"
+	caliber = "9mm"
+	projectile_type = /obj/shiptest_projectile/bullet/c9mm
+	stack_size = 15
+
+/obj/item/shiptest_ammo_casing/c9mm/surplus
+	name = "9mm surplus bullet casing"
+	desc = "A 9mm surplus bullet casing."
+	bullet_skin = "surplus"
+	projectile_type = /obj/shiptest_projectile/bullet/c9mm/surplus
+	wear_modifier = 2
+
+/obj/item/shiptest_ammo_casing/c9mm/ap
+	name = "9mm armor-piercing bullet casing"
+	desc = "A 9mm armor-piercing bullet casing."
+	bullet_skin = "ap"
+	projectile_type = /obj/shiptest_projectile/bullet/c9mm/ap
+
+/obj/item/shiptest_ammo_casing/c9mm/hp
+	name = "9mm hollow-point bullet casing"
+	desc = "A 9mm hollow-point bullet casing."
+	bullet_skin = "hollow"
+	projectile_type = /obj/shiptest_projectile/bullet/c9mm/hp
+
+/obj/item/shiptest_ammo_casing/c9mm/rubber
+	name = "9mm rubber bullet casing"
+	desc = "A 9mm rubber bullet casing."
+	bullet_skin = "rubber"
+	projectile_type = /obj/shiptest_projectile/bullet/c9mm/rubber
+
+// .22 LR (Himehabu, Pounder)
+
+/obj/item/shiptest_ammo_casing/c22lr
+	name = ".22 LR bullet casing"
+	desc = "A .22 LR bullet casing."
+	projectile_type = /obj/shiptest_projectile/bullet/c22lr
+	caliber = "22lr"
+	stack_size = 25
+
+/obj/item/shiptest_ammo_casing/c22lr/surplus
+	name = ".22 LR surplus bullet casing"
+	desc = "A .22 LR surplus bullet casing."
+	projectile_type = /obj/shiptest_projectile/bullet/c22lr/surplus
+	bullet_skin = "surplus"
+	wear_modifier = 2
+
+/obj/item/shiptest_ammo_casing/c22lr/hp
+	name = ".22 LR hollow-point bullet casing"
+	desc = "A .22 LR hollow-point bullet casing."
+	projectile_type = /obj/shiptest_projectile/bullet/c22lr/hp
+	bullet_skin = "hollow"
+
+/obj/item/shiptest_ammo_casing/c22lr/ap
+	name = ".22 LR armor-percing bullet casing"
+	desc = "A .22 LR armor-piercing bullet casing."
+	projectile_type = /obj/shiptest_projectile/bullet/c22lr/ap
+	bullet_skin = "ap"
+
+/obj/item/shiptest_ammo_casing/c22lr/rubber
+	name = ".22 LR rubber bullet casing"
+	desc = "A .22 LR rubber bullet casing."
+	projectile_type = /obj/shiptest_projectile/bullet/c22lr/rubber
+	bullet_skin = "rubber"
